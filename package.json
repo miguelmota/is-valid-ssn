@@ -1,0 +1,31 @@
+{
+  "name": "is-valid-ssn",
+  "version": "0.0.1",
+  "description": "Validate U.S. Social Security number",
+  "main": "is-valid-ssn.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/is-valid-ssn"
+  },
+  "keywords": [
+    "validate",
+    "validator",
+    "social security",
+    "ssn"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/is-valid-ssn/issues"
+  },
+  "homepage": "https://github.com/miguelmota/is-valid-ssn",
+  "dependencies": {
+    "tape": "^3.0.3"
+  }
+}
