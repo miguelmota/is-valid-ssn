@@ -1,6 +1,7 @@
 {
   "name": "is-valid-ssn",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  ",
   "description": "Validate U.S. Social Security number",
   "main": "is-valid-ssn.js",
   "directories": {
