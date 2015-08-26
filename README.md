@@ -1,6 +1,6 @@
 # is-valid-ssn
 
-Validate U.S. Social Security number
+Validate [U.S. Social Security number](https://en.wikipedia.org/wiki/Social_Security_number)
 
 # Install
 
