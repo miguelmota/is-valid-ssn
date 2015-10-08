@@ -6,10 +6,20 @@
     return re.test(v);
   }
 
+  function maskSSN(v) {
+    if (!isValidSSN(v)) {
+      throw new Error('Invalid Social Security Number');
+    }
+
+    return v.substr(0, v.length - 4).replace(/[\w]/g, 'X') + v.substr(-4);
+  }
+
   if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
     module.exports = isValidSSN;
+    module.exports.maskSSN = maskSSN;
   } else {
     window.isValidSSN = isValidSSN;
+    window.maskSSN = maskSSN;
   }
 
 })();
